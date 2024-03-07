@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Títol-->  <title>Calendari</title>
+   <!--Connexió doc css-->   <link rel="stylesheet" href="calendari.css">
+   <!--Favicon--> <link rel="icon" href="logonou.gif" type="image/x-icon">
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <a name="arriba"></a>
+   <!--Enllaç a la part superior de la pagina--> 
+   <header>
+   <center><strong><h1>INS Castelló d'Empúries</h1></strong></center> 
+   <!-- Capçalera de la pagina-->
+</header>
+    <nav><div class="nolist">
+        <!-- Barra navegador-->
+    <strong><ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="Institut.html">Institut</a></li>
+        <li><a href="Quisom.html">Qui som?</a></li>
+        <li><a href="form2.html">Contacte</a></li>
+        <li><a href="https://agora.xtec.cat/iescastellodempuries/linstitut/horaris/" target="_blank">Horaris</a></li>
+        <li><a href="Calendari2.html">Calendari</a></li>
+        <li><a href="https://agora.xtec.cat/iescastellodempuries/linstitut/on-som/" target="_blank">On som?</a></li>
+        <li><a href="https://agora.xtec.cat/iescastellodempuries/calendar/ins-castello-dempuries/" target="_blank">Què fem?</a></li>
+        <li><a href="https://agora.xtec.cat/iescastellodempuries/ampa/" target="_blank">Ampa</a></li>
+        <li><a href="projecte.html">Projecte</a></li>
+        <ul class="menu-horizontal">
+          <li><!--Barra desplegable-->
+            <a href="#">Cursos</a>
+            <ul class="menu-vertical">
+              <li><a href="https://agora.xtec.cat/iescastellodempuries/categoria/activitats/eso/">ESO</a></li>
+              <li><a href="https://agora.xtec.cat/iescastellodempuries/categoria/activitats/batxillerat/">Batxillerat</a></li>
+              <li><a href="https://agora.xtec.cat/iescastellodempuries/categoria/activitats/cicles-formatius/">Cicle formatiu</a></li>
+                        <li><a href="https://agora.xtec.cat/iescastellodempuries/categoria/activitats/pfi-ptt/">PFI-PPT</a></li>
+                    </ul></li>
+        <!--Enllaços navegador-->
+    </ul></strong>
+    </div></nav>
+    <aside> <!--Barra lateral-->
+        <center><a href="https://agora.xtec.cat/iescastellodempuries/" target="_blank"> <img src="logonou.gif" width="100%">
+        </a><a href="https://educacio.gencat.cat/ca/inici/" target="_blank"><img src="03-Generalitat-de-Catalunya-600x300px-ba1b2e15.png" width="100%">
+        </a><a href="https://login.ieduca.com/" target="_blank"><img src="ieduca.jpg" width="100%">
+         </a><a href="http://www.gie.cat/gienc/web/" target="_blank"><img src="baixa.png" width="100%">
+         </a><a href="https://www.edu365.cat/" target="_blank"><img src="edu365_fb.jpg" width="100%">
+         </a><img src="baixa (1).jpg" width="100%">
+     </center>
+        </aside><!--Enllaç parti inferior pàgina-->
+        <a href="#abajo"> <img src="abajo.png" heigt="20px" width="20px"></a>
+    
+    &nbsp;
+    
+        <!-- Text principal-->
+        <center><h1>Calendari curs escolar</h1></center>
+        <ul class="dades">
+            <li><strong>6 de setembre:</strong> inici de curs</li>
+            <li><strong>11  de setembre:</strong> festiu</li>
+            <li><strong>12 d’octubre:</strong> festiu</li>
+            <li><strong>13 d’octubre:</strong> (lliure disposició)</li>
+            <li><strong>1 de novembre:</strong> festiu</li>
+            <li><strong>6 i 8 de desembre:</strong> festiu</li>
+            <li><strong>7 de desembre</strong> (lliure disposició)</li>
+            <li><strong>del 21 de desembre al 7 de gener, ambdós inclosos:</strong> vacances de Nadal.</li>
+            <li><strong>2 de febrer</strong> (Candelera: festa local)</li>
+            <li><strong>5 de febrer</strong> (lliure disposició)</li>
+            <li><strong>del 23 de març a l’1 d’abril:</strong> vacances de Setmana Santa.</li>
+            <li><strong>1 de maig:</strong> festiu</li>
+            <li><strong>2  i 3 de maig</strong> (lliure disposició)</li>
+            <li><strong>21 de juny: </strong>finalització de les activitats lectives</li>
+        </ul>
+        
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- Calendari-->
+    <div class="contianer">
+        <div class="calendar">
+          <div class="calendar-header">
+            <span class="month-picker" id="month-picker"> May </span>
+            <div class="year-picker" id="year-picker">
+              <span class="year-change" id="pre-year">
+                <pre><</pre>
+              </span>
+              <span id="year">2020 </span>
+              <span class="year-change" id="next-year">
+                <pre>></pre>
+              </span>
+            </div>
+          </div>
+    
+          <div class="calendar-body">
+            <div class="calendar-week-days">
+              <div>Diu</div>
+              <div>Dill</div>
+              <div>Dim</div>
+              <div>Dim</div>
+              <div>Dij</div>
+              <div>Div</div>
+              <div>Diss</div>
+            </div>
+            <div class="calendar-days">
+            </div>
+          </div>
+          <div class="calendar-footer">
+          </div>
+          <div class="date-time-formate">
+            <div class="day-text-formate">AVUI</div>
+            <div class="date-time-value">
+              <div class="time-formate">01:41:20</div>
+              <div class="date-formate">03 - march - 2022</div>
+            </div>
+          </div>
+          <div class="month-list"></div>
+        </div>
+      </div>
+   
+
+      
+    <!--Fletxa amunt-->
+    <a href="#arriba"><img src="arriba.png" height="20px" width="20px"></a>
+
+    <!--Peu de pagina-->
+<div id="peudepagina" > 
+  <center>  <img src="logonou.gif"
+ height="100px" width="170px"><br>
+ <p style="color: white;">Institut Castelló d'Empúries<br>
+    C/ Rentador, 6<br>
+    17486 Castelló d'Empúries<br>
+    +34 972 25 07 68 . inscastellodempuries@gmail.com<br><br>
+    <div id="icons">
+   <a href="https://www.facebook.com/InsCastello/" target="_blank"> <img src="faceb.png" height="50px" widht="50px"></a>
+   <a href="https://www.youtube.com/@coordinacioinformatica8036" target="_blank"><img src="yt.png" height="50px" widht="50px"></a> 
+    <a href="https://www.instagram.com/inscastello/" target="_blank"><img src="ig.png" height="50px" widht="50px"></a>
+  </center> </div>
+</div>
+
+
+<a name="abajo"></a>
+
+</body>
+</html>
+
