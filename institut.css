@@ -1,0 +1,110 @@
+*{margin:0%;} /* Treure marges a tota la pagina */
+/*Capçalera*/
+header {background-color: rgb(35, 111, 187) ;
+  padding-top: 1% ;
+  padding-bottom: none;
+    height:5%;  
+    text-decoration:none; 
+    }
+
+#title {background-color: aqua;
+margin:0%;}
+
+
+/*Posar notes explicatives*/
+
+
+
+#textprincipal {width:80%;
+height:100%;
+background:  rgb(226, 241, 255  ) ;
+margin:0%;}
+
+/*Barra Navegador*/
+nav{background-color: rgb(194, 194, 141);
+height: 4%;
+margin:0%;}
+
+nav li a {
+  background-color:rgb(194, 194, 141);
+  color:#000000;
+  text-decoration:none;
+  padding:0% ;
+  display:block;
+}
+nav li a:hover {
+  background-color:rgb(160, 160, 102);
+  height:100%;
+  width:100%;
+}
+nav li:hover > ul {
+  display:block;
+}
+
+/*Barra desplegable*/
+.menu-vertical li:hover{
+  background-color: black;
+}
+.menu-vertical li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0%;
+}
+.menu-horizontal{
+  list-style: none;
+}
+.menu-horizontal > li > a{
+  display: block;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.menu-horizontal > li:hover{
+  background-color: red;
+}
+.menu-horizontal li:hover .menu-vertical{
+  display: block;}
+  .menu-vertical li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+ul li {float: left;
+  list-style: none;
+  margin:10px }
+
+
+/*Format part principal pàgina*/
+body {background: rgb(226, 241, 255  ) ;
+margin:0px;
+height:1000px
+}
+/*Barra lateral*/
+aside {float:right;
+background: linear-gradient(to right, #96d6f0, #157188);;
+width:20%;
+height:216.46%;
+margin:0px;}
+
+
+/*Peu de pàgina*/
+#peudepagina {width:100%;
+  float:none;
+height:26%;
+background-color: brown;}
+
