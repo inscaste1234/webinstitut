@@ -1,0 +1,169 @@
+*{margin:0%;} /* Treure marges a tota la pagina */
+/*Capçalera*/
+header {background-color: rgb(35, 111, 187) ;
+  padding-top: 1% ;
+  padding-bottom: none;
+    height:5%;  
+    text-decoration:none; 
+    }
+
+#title {background-color: aqua;
+margin:0%;}
+
+
+/*Posar notes explicatives*/
+
+
+
+#textprincipal {width:80%;
+height:10%;
+background:  rgb(226, 241, 255  ) ;
+margin:0%;}
+
+/*Barra Navegador*/
+nav{background-color: rgb(194, 194, 141);
+height: 4%;
+margin:0%;}
+ 
+nav li a {
+  background-color:rgb(194, 194, 141);
+  color:#000000;
+  text-decoration:none;
+  padding:0% ;
+  display:block;
+}
+nav li a:hover {
+  background-color:rgb(160, 160, 102);
+  height:100%;
+  width:100%;
+}
+nav li:hover > ul {
+  display:block;
+}
+
+/*Barra desplegable*/
+.menu-vertical li:hover{
+  background-color: black;
+}
+.menu-vertical li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0%;
+}
+.menu-horizontal{
+  list-style: none;
+}
+.menu-horizontal > li > a{
+  display: block;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.menu-horizontal > li:hover{
+  background-color: red;
+}
+.menu-horizontal li:hover .menu-vertical{
+  display: block;}
+  .menu-vertical li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+ul li {float: left;
+  list-style: none;
+  margin:10px }
+
+
+/*Format part principal pàgina*/
+body {background: rgb(226, 241, 255  ) ;
+margin:0px;
+height:1000px;
+}
+/*Barra lateral*/
+aside {float:right;
+background: linear-gradient(to right, #96d6f0, #157188);;
+width:20%;
+height:72.4%;
+margin:0px;}
+
+
+/*Peu de pàgina*/
+#peudepagina {width:100%;
+  float:none;
+  
+    margin-top: 102px ;
+  
+height:26%;
+background-color: brown;}
+
+
+/*Css formulari*/
+form {
+    /* Centrar el formulario a la pàgina */
+    width:auto;
+    height: 10%;
+    /* Esquema del formulari */
+    padding: 0em;
+    
+   }
+  
+ul {
+    list-style: left;
+    padding: 0;
+    margin: 0;
+   }
+  
+   form li + li {
+    margin-top: 1em;
+   }
+  
+   label {
+    /* Mida y alineació uniforme */
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+   }
+
+
+input,
+   textarea {
+    font: 1em sans-serif;
+    /* Mida uniforme del camp de text */
+    width: 500px;
+    height:auto;
+
+   }
+  
+   input:focus,
+   textarea:focus {
+    /* Destacat adicional per elements que tenen el cursor */
+    border-color: #000;
+   }
+  
+   textarea {
+    vertical-align: none;
+  
+    /* Proporcionar espai per escriure text */
+    height: 10em;
+   }
+  
+   .button {
+    /* Alinear els botons amb els camps del text */
+    padding-left: 40px;
+    padding-top: 50px; 
+   }
+  
