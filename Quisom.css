@@ -1,0 +1,206 @@
+*{margin:0px;}
+
+
+header {background-color: rgb(35, 111, 187) ;
+  padding-top: 1% ;
+  padding-bottom: none;
+    height:5%;  
+    text-decoration:none; 
+    }
+/*Format part principal pàgina*/
+body {color: #000;
+background-color:rgb(226, 241, 255  ) ;}
+
+#title {background-color: aqua;
+margin:0%;}
+
+
+/*Posar notes explicatives*/
+ul.dades li{margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    justify-content: center;
+    list-style:initial ;
+    list-style-type: initial;
+    float:none;} 
+
+
+#textprincipal {width:80%;
+height:100px;
+background:  rgb(226, 241, 255  ) ;
+margin:0%;}
+
+
+/*Barra Navegador*/
+nav{background-color: rgb(194, 194, 141);
+height: 4%;
+margin:0%;}
+
+nav li a {
+  background-color:rgb(194, 194, 141);
+  color:#000000;
+  text-decoration:none;
+  padding:0% ;
+  display:block;
+}
+nav li a:hover {
+  background-color:rgb(160, 160, 102);
+  height:100%;
+  width:100%;
+}
+nav li:hover > ul {
+  display:block;
+}
+
+/*Barra desplegable*/
+.menu-vertical li:hover{
+    background-color: black;
+  }
+  .menu-vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0%;
+  }
+  .menu-horizontal{
+    list-style: none;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+    background-color: red;
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;}
+    .menu-vertical li a{
+      display: block;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+    }
+  .menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+
+ul li {float: left;
+  list-style: none;
+  margin:10px }
+
+
+
+
+#textprincipal {width:80%;
+height:1018px;
+background-color:  rgb(226, 241, 255  );
+margin:0px;}
+
+nav{background-color: rgb(194, 194, 141);
+height: 40px;
+margin:0px;}
+
+/*Barra lateral*/
+aside {float:right;
+    background: linear-gradient(to right, #96d6f0, #157188);;
+    width:20%;
+    height:1079px;
+    margin:0px;
+}
+    
+/*Css Carrousel d'imatges*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+*{
+    font-family: 'inconsolata';
+}
+.lletresblanc{
+    background-color:  rgb(226, 241, 255  );
+    text-align: center;
+    color: #ffffff
+     ;
+}
+.contenedor{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    background-image: url( sdd.jpeg );
+}
+.img2{
+    background-image: url(jeff-bezos-el-amo-del-mundo.jpg);
+}
+.img3{
+    background-image: url(empre.jpg);
+}
+.item{
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 10px;
+    transition: .3s;
+    position: relative;
+    border-radius: 20px;
+}
+.item:hover{
+    width: 70%;
+}
+.overlay{
+    position: absolute;
+    background: linear-gradient(to bottom, transparent 80%, rgba(0,0,0,.7));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.item .titulo{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 0;
+    transform-origin: left top 0;
+    text-shadow: 2px 2px 3px #000;
+    letter-spacing: 2px;
+    left: 20px;
+}
+.item .nombre{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    transition: 1s;
+    opacity: 0;
+}
+.item .titulo::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 120%;
+    background-color: #000000;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+    line-height: 40px;
+}
+.item:hover .nombre{
+    opacity: 1;
+}
+.item:hover .titulo::after{
+    width: 100%;
+}
+
+
+/*Peu de pàgina*/
+#peudepagina {width:100%;
+height:20%;
+background-color: brown;}
